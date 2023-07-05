@@ -1,0 +1,81 @@
+html{
+    /* background-color:  rgba(0, 0, 0, 0.914); */
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 20px;
+    /* border: 1px solid black; */
+    color: white; 
+}
+
+.common{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    background-color: rgba(251, 167, 12, 0.8);
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.199);
+    transition: all .4s linear;
+}
+
+.common:hover{
+    z-index: 2;
+    background-color: rgba(40, 251, 12, 0.7);
+    color: gray;
+}
+
+.div-1:hover{
+    transform: rotate(-45deg);
+    border-radius: 50%;
+}
+
+.div-2:hover{
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+
+.div-3:hover{
+    transform: rotate(-360deg);
+    border-radius: 50%;
+}
+
+.div-4:hover{
+    transform: rotateY(360deg);
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    /* transform: rotateX(360deg); */
+}
+
+.div-5:hover{
+    transform: rotateY(180deg);
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.div-6:hover{
+    transform: rotateX(360deg);
+}
+
+.div-7:hover{
+    transform: rotateX(180deg);
+}
+
+.div-8:hover{
+    box-shadow: inset 0px 0px 0px 20px rgb(255, 255, 255);
+    opacity: 5;
+}
+
+.div-9:hover{
+    box-shadow: 0px 0px 0px 15px rgb(255, 255, 255);
+}
+
+.div-10:hover{
+    box-shadow: inset 0px 0px 10px 40px  rgba(255, 255, 255, 0.914);
+}
+
